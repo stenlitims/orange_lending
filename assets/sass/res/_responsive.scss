@@ -1,0 +1,184 @@
+@media all and (max-width: 1200px) and (min-width: 768px) {}
+
+@media (min-width: 560px) {}
+
+@media (min-width: 768px) {
+    .fancybox-slide>.c-modal {
+        padding: 40px; // min-width: 500px;
+    }
+    .modal1 {
+        min-width: 500px;
+    }
+}
+
+@media (min-width: 991px) {}
+
+@media (min-width: 1300px) {
+    .container {
+        min-width: 1200px;
+    }
+    .m-img {
+        &:before {
+            transform: scale(1.1);
+            transition: all 2s ease;
+        }
+        &:after {
+            z-index: 2;
+            position: absolute;
+            left: 0;
+            width: 100%;
+            top: 0;
+            bottom: 0;
+            background: $color;
+            transition: all 1.2s ease;
+            content: "";
+        }
+        &.animated {
+            &:before {
+                transform: scale(1);
+            }
+            &:after {
+                width: 0;
+            }
+        }
+    }
+    .anim-bg {
+        &:after {
+            z-index: 2;
+            position: absolute;
+            left: 0;
+            width: 100%;
+            top: 0;
+            bottom: 0;
+            background: $color;
+            transition: all 1.2s ease;
+            content: "";
+        }
+        &.animated {
+            &:after {
+                width: 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 1440px) {
+    .header .logo {
+        margin-right: 40px;
+    }
+    .header.white {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .section3 {
+        padding-top: 80px;
+    }
+    .plans .item-row {
+        margin-bottom: 50px;
+    }
+    .mb {
+        margin-bottom: 80px;
+    }
+}
+
+@media (max-width: 1440px) and (min-width: 991px) {}
+
+@media (max-width: 1340px) {
+    .header .l-wh {
+        height: 60px;
+    }
+    .header .logo {
+        width: 100px;
+    }
+    .header .main-nav li {
+        margin: 0 12px;
+    }
+    .header .logo {
+        margin-right: 30px;
+    }
+    .section1 .h1 {
+        font-size: 46px;
+    }
+    .section1 .text {
+        font-size: 16px;
+    }
+    .btn-line {
+        font-size: 10px;
+    }
+    .btn-def {
+        font-size: 12px;
+        padding: 17px 26px;
+    }
+    .heading {
+        font-size: 34px;
+    }
+    .list-nums .num {
+        font-size: 40px;
+    }
+    .block-info {
+        padding-bottom: 40px;
+        padding-top: 80px;
+    }
+    .list-nums .t {
+        line-height: 1.6;
+    }
+    .block-info .title {
+        line-height: 1.4;
+    }
+    .soc-block {
+        padding: 40px;
+    }
+    .footer {
+        padding: 0 0 40px;
+    }
+    body {
+        font-size: 14px;
+    }
+    .wrap-map .adress .t {
+        font-size: 19px;
+    }
+    .top-phone {
+        margin-right: 20px;
+    }
+    .section1 .wrap-text {
+        width: 570px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .header .main-nav {
+        font-size: 13px;
+    }
+    .top-phone {
+        font-size: 16px;
+    }
+    .header .l-wh {
+        height: 50px;
+    }
+    .header .logo {
+        width: 84px;
+    }
+    .header .main-nav li {
+        margin: 0px 10px;
+    }
+    .header .logo {
+        margin-right: 24px;
+    }
+    .top-phone {
+        margin-right: 14px;
+    }
+    .btn-line {
+        padding: 8px 13px 6px;
+    }
+    .lang{
+        margin-left: 12px;
+    }
+}
+
+@media (max-width: 1140px) {
+    .header .main-nav li {
+        margin: 0px 6px;
+    }
+}
+
+@media all and (max-width: 1300px) and (min-width: 1200px) {}

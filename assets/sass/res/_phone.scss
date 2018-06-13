@@ -1,0 +1,191 @@
+@media (max-width: 767px) {
+    .section {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .top-phone {
+        font-size: 16px;
+    }
+    .burger {
+        margin-right: 20px;
+    }
+    .section1 .wrap-text {
+        width: inherit;
+    }
+    .section1 .h1 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    .section1 .text {
+        margin-bottom: 25px;
+    }
+    .heading {
+        font-size: 30px;
+    }
+    .section2 .container:before {
+        width: 500px;
+        right: -250px;
+        top: 40px;
+    }
+    .section3 {
+        padding-top: 50px;
+    }
+    .heading {
+        margin-bottom: 40px;
+    }
+    .row-imgs .img:before {
+        content: none;
+    }
+    .row-imgs>div:nth-child(2) {
+        display: none;
+    }
+    .row-imgs {
+        margin-bottom: 50px;
+    }
+    .list-pr {
+        margin-bottom: 20px;
+    }
+    .plans .item-row:nth-child(even) .info {
+        order: 0;
+        padding-left: 15px;
+    }
+    .plans .item-row .info {
+        .btn-def {
+            position: absolute;
+            right: 15px;
+            bottom: 30px;
+        }
+    }
+    .block-info {
+        padding-bottom: 20px;
+        padding-top: 60px;
+    }
+    .list-nums .num {
+        font-size: 36px;
+    }
+    .list-nums .item {
+        margin-bottom: 40px;
+        padding-bottom: 20px;
+    }
+    .mb {
+        margin-bottom: 60px;
+    }
+    .wrap-form form {
+        width: 260px;
+        .form {
+            display: block;
+        }
+        .btn-def {
+            display: block;
+            width: 100%;
+            padding: 22px 26px;
+        }
+    }
+    .wrap-form form input[type=text] {
+        width: 100%;
+        margin-right: 0;
+        height: 56px;
+    }
+    .wrap-map .adress {
+        right: 20px;
+        padding: 20px;
+        .t2 {
+            br {
+                display: none;
+            }
+        }
+    }
+    .footer {
+        padding: 0 0 30px;
+    }
+    .gal-list .owl-nav .owl-prev,
+    .gal-list .owl-nav .owl-next {
+        width: 50px;
+    }
+}
+
+@media (max-width: 576px) {
+    .header .container>div.r {
+        display: block;
+        text-align: center;
+        margin-top: -5px;
+        position: relative;
+        padding-right: 40px;
+    }
+    .top-phone {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .lang{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .plans .item-row .info .btn-def {
+        position: relative;
+        right: inherit;
+        bottom: inherit;
+    }
+    .soc-list {
+        display: block;
+        width: 190px;
+        >div:first-child {
+            margin-bottom: 30px;
+        }
+    }
+
+}
+
+@media (max-width: 400px) {
+    .section1 .text {
+        //    display: none;
+    }
+    .section2 .container .bg-img {
+        visibility: hidden;
+    }
+    .list-pr .item {
+        margin-bottom: 20px;
+    }
+    .m-img {
+        height: 360px;
+    }
+    .item-row {
+        .info {
+            margin-bottom: 30px;
+        }
+    }
+    .plans .item-row:last-child {
+        margin-bottom: 10px;
+    }
+    .block-info>.container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .wrap-map .adress .t {
+        margin-bottom: 10px;
+    }
+    .header .logo {
+        margin-right: 0;
+    }
+    .copy {
+        font-size: 12px;
+    }
+    .section3 {
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 374px) {
+    .burger {
+        margin-right: 16px;
+    }
+    .heading {
+        font-size: 25px;
+    }
+}
+@media (max-width: 360px) {
+    .logo{
+        display: none;
+    }
+}
